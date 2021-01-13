@@ -1,0 +1,32 @@
+#gameContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: .5em;
+    border-style: solid;
+    border-radius: 5%;
+   
+    width:30em;
+    height: 30em;
+    background-color: black;
+    margin:auto;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gameCell {
+    margin: 2px;
+    font-size: 1.5em;
+    border-radius: 5%;
+    border: none;
+    text-align: center;
+    background-color: white;
+    line-height: 1fr;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.cellText {
+    font-family: monospace;
+    font-size: 5.5em;
+}
